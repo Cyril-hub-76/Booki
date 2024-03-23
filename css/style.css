@@ -61,3 +61,127 @@ a {
     text-decoration: none;
     display: block;
 }
+
+/*font Raleway*/
+h1, .filterContainer, .search input[type=text]::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p, nav > ul > li > a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*font Raleway*/
+
+/*font size*/
+input {
+    font-size: 16px;
+}
+/*font size*/
+
+/*icons*/
+.fa-solid.blue::before {
+    color: var(--main-blue);
+}
+/*icons*/
+
+/*Section Search*/
+h1 {
+    margin-bottom: 10px;
+}
+.search {
+    display: flex;
+    width: 350px;
+    height: 40px;
+    margin: 30px 0;
+    position: relative;
+}
+.search .bull {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--light-grey);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.location {
+    font-size: 18px;
+}
+.search input {
+    border: none;
+}
+.search input[type=text] {
+    width: 50%;
+    text-align: center;
+    border: 1px solid var(--light-grey);
+}
+.search input[type=text]:focus {
+    outline: var(--light-grey);
+}
+.search input[type=text]::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+.search input[class=desk]  {
+    width: 35%;
+    background: var(--main-blue);
+    color: var(--main-white);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.filterContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.filterContainer .wrap {
+    display: flex;
+}
+.fa-money-bill-wave::before, .fa-person::before, .fa-heart::before, .fa-fire::before {
+    margin-right: 10px;
+    font-size: 1.4em;
+}
+.filterContainer span{
+    margin-right: 15px;
+}
+.filter {
+    display: flex;
+}
+.filter a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 2px solid var(--main-grey);
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.filter a:hover {
+    background: var(--light-blue);
+}
+.warn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.warn > div {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--main-grey);
+    margin-right: 10px;
+}
+i {
+    font-size: 12px;
+}
+
+/*Section Search*/
