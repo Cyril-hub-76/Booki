@@ -63,7 +63,7 @@ a {
 }
 
 /*font Raleway*/
-h1, .filterContainer, .search input[type=text]::placeholder {
+h1, h2, h3, .more, .filterContainer, .search input[type=text]::placeholder {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -78,6 +78,9 @@ p, nav > ul > li > a {
 /*font size*/
 input {
     font-size: 16px;
+}
+.card {
+    font-size: 14px;
 }
 /*font size*/
 
@@ -211,6 +214,9 @@ i {
     display: flex;
     justify-content: space-between;
 }
+.hebergementContainer:first-of-type {
+    margin-bottom: 30px;
+}
 .hebergementContainer a {
     width: 30%;
 }
@@ -226,12 +232,19 @@ i {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
-.hebergementContainer .card h3, .hebergementContainer  .card p, .hebergementContainer  .card span {
+.card .price {
+    font-weight: bold;
+    display: inline;
+}
+.hebergementContainer .card h3, .hebergementContainer  .card p {
     margin: 8px 10px;
 }
-.card span {
+.card .star {
     display: block;
-    margin-bottom: 10px;
+    margin: 8px 10px 10px;
+}
+.more {
+    margin-top: 30px;
 }
 /*Section Hébergements*/
 
