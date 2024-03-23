@@ -204,7 +204,7 @@ i {
     background: var(--light-grey);
     border-radius: 20px;
 }
-.articleContainer h2 {
+.articleContainer h2, .title{
     margin-bottom: 30px;
 }
 .hebergements {
@@ -232,19 +232,63 @@ i {
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
-.card .price {
+.price {
     font-weight: bold;
     display: inline;
 }
 .hebergementContainer .card h3, .hebergementContainer  .card p {
     margin: 8px 10px;
 }
-.card .star {
+.star {
     display: block;
     margin: 8px 10px 10px;
 }
 .more {
     margin-top: 30px;
+}
+aside {
+    background: var(--light-grey);
+    width: 460px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.title {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.title .fa-chart-line{
+    font-size: 15px;
+}
+.asideContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+}
+.cardAside {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding: 5px;
+    background: var(--main-white);
+}
+.cardAside .roomAside {
+    width: 30%;
+    height:140px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.cardAside .sideCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px 10px 2px;
+}
+.sideCard h3 {
+    margin-bottom: 10px;
 }
 /*Section Hébergements*/
 
