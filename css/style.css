@@ -85,6 +85,9 @@ input {
 .fa-solid.blue::before {
     color: var(--main-blue);
 }
+.fa-solid.grey::before {
+    color: var(--light-grey);
+}
 /*icons*/
 
 /*Section Search*/
@@ -185,3 +188,56 @@ i {
 }
 
 /*Section Search*/
+
+/*Section Hébergements*/
+#hebergements {
+    display: flex;
+    justify-content: space-between;
+}
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: var(--light-grey);
+    border-radius: 20px;
+}
+.articleContainer h2 {
+    margin-bottom: 30px;
+}
+.hebergements {
+    width: 820px;
+}
+.hebergementContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.hebergementContainer a {
+    width: 30%;
+}
+.hebergementContainer .card {
+    border-radius: 20px;
+    padding: 5px;
+    background: var(--main-white);
+}
+.hebergementContainer .card .room {
+    width: 100%;
+    height: 105px;
+    object-fit: cover;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.hebergementContainer .card h3, .hebergementContainer  .card p, .hebergementContainer  .card span {
+    margin: 8px 10px;
+}
+.card span {
+    display: block;
+    margin-bottom: 10px;
+}
+/*Section Hébergements*/
+
+/* Box-shadow Cards hébergements et activités*/
+
+.hebergementContainer .card {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+/* Box-shadow Cards hébergements et activités*/
