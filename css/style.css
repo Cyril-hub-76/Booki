@@ -293,6 +293,17 @@ aside {
 /*Section Hébergements*/
 
 /*Section activités*/
+#activites {
+    margin: 30px 0;
+    padding: 30px;
+}
+#activites h2 {
+    margin-bottom: 30px;
+}
+.activitesContainer {
+    display: flex;
+    justify-content: space-between;
+}
 .activitesContainer a {
     width: 20%;
 }
