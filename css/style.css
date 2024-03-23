@@ -22,3 +22,42 @@ body {
     padding: 0 30px;
     background: var(--main-white);
 }
+header {
+    height: 80px;
+    display: flex;
+}
+
+/*Nav*/
+.logo, nav {
+    width: 50%;
+}
+.logo img {
+    width: 60px;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    padding: 15px 0;
+    margin: 0 15px;
+}
+.select {
+    border-top: 2px solid var(--main-blue);
+    color: var(--main-blue);
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*Nav*/
+
+a {
+    text-decoration: none;
+    display: block;
+}
