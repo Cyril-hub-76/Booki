@@ -292,9 +292,27 @@ aside {
 }
 /*Section Hébergements*/
 
-/* Box-shadow Cards hébergements et activités*/
+/*Section activités*/
+.activitesContainer a {
+    width: 20%;
+}
+.activitesContainer .card {
+    border-radius: 20px;
+}
+.activitesContainer .card .room {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.activitesContainer .card h3 {
+    padding: 20px;
+}
+/*Section activités*/
 
-.hebergementContainer .card, aside .cardAside {
+/* Box-shadow Cards hébergements et activités*/
+.hebergementContainer .card, aside .cardAside, .activitesContainer .card {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 /* Box-shadow Cards hébergements et activités*/
