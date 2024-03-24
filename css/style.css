@@ -434,7 +434,7 @@ footer .foot{
     h1, h2 {
         font-size: 20px;
     }
-    .search input[type=text]::placeholder, .filterContainer{
+    h3, .search input[type=text]::placeholder, .filterContainer{
         font-size: 14px;
     }
     body {
@@ -533,6 +533,45 @@ footer .foot{
     }
     /*section search*/
 
+    /*section hébergements*/
+    #hebergements {
+        flex-direction: column-reverse;
+    }
+    aside {
+        border-radius: 0;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    #hebergements .more {
+        margin-top: unset;
+    }
+    .hebergements {
+        width: 100%;
+    }
+    .articleContainer {
+        border-radius: 0;
+        background: var(--main-white);
+    }
+    .hebergementContainer {
+        flex-direction: column;
+    }
+    .hebergementContainer a {
+        width: 100%;
+    }
+    
+    /*Marges cartes*/
+    .sideContainer:not(#hebergements aside .asideContainer .sideContainer:nth-child(3)), .hebergementContainer .card:not(.hebergementContainer .card:nth-child(6)) {
+        margin-bottom: 20px;
+    }
+    /*Marges cartes*/
+    
+    .hebergementContainer:first-of-type {
+        margin-bottom: 0;
+    }
+    .cardAside .roomAside {
+        width: 100px;
+    }
+    /*section hébergements*/
 
 
 
