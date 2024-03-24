@@ -573,6 +573,20 @@ footer .foot{
     }
     /*section hébergements*/
 
+    /*section activités*/
+    .activitesContainer {
+        flex-direction: column;
+    }
+    .activitesContainer a {
+        width: 100%;
+    }
+    .activitesContainer .card {
+        margin-bottom: 20px;
+    }
+    .activitesContainer .card .room {
+        height: 130px;
+    }
+    /*section activités*/
 
 
 
