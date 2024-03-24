@@ -428,7 +428,7 @@ footer .foot{
 
 /*Mobile*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     /*font size*/
     h1, h2 {
