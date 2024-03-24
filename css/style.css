@@ -79,7 +79,7 @@ p, nav > ul > li > a, footer a {
 input {
     font-size: 16px;
 }
-.card {
+.card, .cardAside, footer a {
     font-size: 14px;
 }
 /*font size*/
@@ -341,3 +341,84 @@ footer .foot{
     line-height: 30px;
     margin-right: 10px;
 }
+
+/*Tablette*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    body {
+        padding: 0 10px;
+    }
+
+    /*font size*/
+    h1, h2 {
+        font-size: 20px;
+    }
+     h3, .search input[type=text]::placeholder, .search input[type=submit], .filterContainer{
+        font-size: 14px;
+    }
+    /*font size*/
+
+    /*Section search*/
+    .filterContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .filterContainer span {
+        margin-bottom: 20px;
+    }
+    /*Section search*/
+
+    /*Section hebergements*/
+    #hebergements {
+        flex-direction: column;
+    }
+    aside {
+        margin-top: 40px;
+        padding: 0 10px 30px 10px;
+    }
+    .asideContainer {
+        flex-direction: row;
+    }
+    .hebergements, aside {
+        width: 100%;
+    }
+    .sideContainer {
+        width: 32%;
+    }
+    .cardAside {
+        line-height: 20px;
+    }
+    .articleContainer {
+        padding: 10px;
+    }
+    .articleContainer h2, aside .title {
+        margin-bottom: unset;
+        margin: 20px 0;
+    }
+    .articleContainer .more {
+        margin-bottom: 20px;
+    }
+    /*Section hebergements*/
+
+    /*Section activités*/
+    #activites {
+        padding: 10px;
+    }
+    #activites h2 {
+        margin: 20px 0;
+    }
+    .activitesContainer a {
+        width: 23%;
+    }
+    .activitesContainer .card {
+        height: 250px;
+    }
+    .activitesContainer .card .room {
+        height: 180px;
+    }
+    .activitesContainer .card h3 {
+        padding: 10px 20px;
+    }
+    /*Section activités*/
+}
+/*Tablette*/
