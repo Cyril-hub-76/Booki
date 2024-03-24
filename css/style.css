@@ -588,26 +588,15 @@ footer .foot{
     }
     /*section activités*/
 
-
-
-
-
-
-
+    /*Footer*/
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+    footer .foot {
+        width: 100%;
+    }
+   /*Footer*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Mobile*/
