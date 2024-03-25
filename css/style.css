@@ -42,12 +42,13 @@ nav ul {
 nav ul li {
     list-style: none;
 }
-nav ul li a {
+nav ul li .select {
     padding: 15px 0;
     margin: 0 15px;
 }
-.select {
+.select:hover {
     border-top: 2px solid var(--main-blue);
+    padding-top: 13px;
     color: var(--main-blue);
 }
 .logo {
@@ -463,17 +464,16 @@ footer .foot{
         display: block;
         width: 100%;
     }
-    nav ul li a {
+    nav ul li .select {
         width: 100%;
         margin: unset;
         text-align: center;
-    }
-    nav ul li .select {
-        border-top: none;
-        border-bottom: 2px solid var(--main-blue);
-    }
-    nav ul li .noSelected {
         border-bottom: 2px solid var(--light-grey);
+    }
+    nav ul li .select:hover {
+        border-top: none;
+        padding: 15px 0;
+        border-bottom: 2px solid var(--main-blue);
     }
     /*header - nav*/
 
