@@ -19,7 +19,7 @@ body {
     min-width: 320px;
     max-width: 1440px;
     margin: auto;
-    padding: 0 30px;
+    padding: 0 10px;
     background: var(--main-white);
 }
 header {
@@ -202,6 +202,7 @@ i {
     justify-content: space-between;
 }
 .articleContainer {
+    width: 68%;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -210,9 +211,6 @@ i {
 }
 .articleContainer h2, .title{
     margin-bottom: 30px;
-}
-.hebergements {
-    width: 820px;
 }
 .hebergementContainer {
     display: flex;
@@ -231,7 +229,7 @@ i {
 }
 .hebergementContainer .card .room {
     width: 100%;
-    height: 105px;
+    height: 115px;
     object-fit: cover;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
@@ -252,7 +250,7 @@ i {
 }
 aside {
     background: var(--light-grey);
-    width: 460px;
+    width: 30%;
     padding: 30px;
     border-radius: 20px;
 }
@@ -279,7 +277,7 @@ aside {
     background: var(--main-white);
 }
 .cardAside .roomAside {
-    width: 30%;
+    width: 90px;
     height:140px;
     object-fit: cover;
     border-top-left-radius: 15px;
@@ -309,7 +307,7 @@ aside {
     justify-content: space-between;
 }
 .activitesContainer a {
-    width: 20%;
+    width: 22%;
 }
 .activitesContainer .card {
     border-radius: 20px;
@@ -322,7 +320,7 @@ aside {
     border-top-left-radius: 20px;
 }
 .activitesContainer .card h3 {
-    padding: 20px;
+    padding: 20px 10px;
 }
 /*Section activités*/
 
@@ -393,6 +391,7 @@ footer .foot{
         line-height: 20px;
     }
     .articleContainer {
+        width: 100%;
         padding: 10px;
     }
     .articleContainer h2, aside .title {
@@ -556,6 +555,7 @@ footer .foot{
     .articleContainer {
         border-radius: 0;
         background: var(--main-white);
+        width: 100%;
     }
     .hebergementContainer {
         flex-direction: column;
