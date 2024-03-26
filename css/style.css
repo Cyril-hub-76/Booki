@@ -502,8 +502,13 @@ footer .foot{
         justify-content: center;
         align-items: center;
         padding: 13px;
+        border: none;
         border-radius: 15px;
         box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.2);
+        color: var(--main-white);
+        cursor: pointer;
+    }
+    .white::before {
         color: var(--main-white);
     }
     .filterContainer {
