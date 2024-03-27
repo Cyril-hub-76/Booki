@@ -1,4 +1,4 @@
-*, ::after, ::before {
+﻿*, ::after, ::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -64,7 +64,7 @@ a {
 }
 
 /*font Raleway*/
-h1, h2, h3, .more, .filterContainer, .search input[type=text]::placeholder {
+h1, h2, h3, .more, .filterContainer, input[type=text] ,input[type=text]::placeholder {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -127,10 +127,6 @@ h1 {
 }
 .search input[type=text]:focus {
     outline: var(--light-grey);
-}
-.search input[type=text]::placeholder {
-    color: #000000;
-    opacity: 1;
 }
 .search input[class=desk]  {
     width: 35%;
@@ -434,7 +430,7 @@ footer .foot{
     h1, h2 {
         font-size: 20px;
     }
-    h3, .search input[type=text]::placeholder, .filterContainer{
+    h3, .search input[type=text], .search input[type=text]::placeholder, .filterContainer{
         font-size: 14px;
     }
     body {
@@ -565,7 +561,7 @@ footer .foot{
     }
     
     /*Marges cartes*/
-    .sideContainer:not(#hebergements aside .asideContainer .sideContainer:nth-child(3)), .hebergementContainer .card:not(.hebergementContainer .card:nth-child(6)) {
+    .sideContainer:not(.sideContainer:nth-child(3)), .hebergementContainer .card:not(.hebergementContainer .card:nth-child(6)) {
         margin-bottom: 20px;
     }
     /*Marges cartes*/
