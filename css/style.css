@@ -530,7 +530,7 @@ footer .foot{
     .filter div a {
         margin-right: unset;
         justify-content: unset;
-        padding: 10px 14px;
+        padding: 10px;
     }
     .warn div {
         padding: 10px;
